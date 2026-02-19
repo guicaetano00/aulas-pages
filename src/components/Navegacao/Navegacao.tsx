@@ -1,0 +1,28 @@
+import React from 'react';
+import './Navegacao.css'; // Importando CSS para estilos
+
+const Navegacao: React.FC = () => {
+  return (
+    <nav className="navegacao">
+      <div className="nav-container">
+        <h1 className="nav-logo">Meu Site</h1>
+        <ul className="nav-menu">
+          <li className="nav-item">
+            <a href="#home" className="nav-link">Home</a>
+          </li>
+          <li className="nav-item">
+            <a href="#sobre" className="nav-link">Sobre</a>
+          </li>
+          <li className="nav-item">
+            <a href="#servicos" className="nav-link">Serviços</a>
+          </li>
+          <li className="nav-item">
+            <a href="#contato" className="nav-link">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default Navegacao;
