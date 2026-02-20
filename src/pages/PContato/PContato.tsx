@@ -1,5 +1,5 @@
 import Navegacao from "../../components/Navegacao/Navegacao";
-import Sobre from "../../components/Sobre/Sobre";
+import Contatos from "../../components/Contatos/Contatos";
 import Rodape from "../../components/Rodape/Rodape";
 
 
@@ -7,7 +7,7 @@ function PContato () {
   return (
     <>
     <Navegacao />
-    <Sobre />
+    <Contatos />
     <Rodape />
     </>
   )
